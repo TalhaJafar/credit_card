@@ -1,0 +1,12 @@
+@import './globalStyles.scss';
+
+.app{
+    // @include flex(row);
+    @include width_height(100%, 100vh);
+    background-color: $secondaryColor;
+}
+
+// .extending_func{
+//     @extend .app;
+//     background-color: blueviolet;
+// }

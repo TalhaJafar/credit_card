@@ -1,0 +1,63 @@
+@import '../../globalStyles.scss';
+
+.main_section{
+    @include flex(row);
+    @include margin (0vh, 0vh, 7vw, 7vw);
+    @include align_content(space-between, center);
+    height:80vh;
+    align-items: center;
+
+}
+
+.section_description{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brand_main_heading{
+    font-size: 4vmax;
+    color: $primaryColor;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    h5{
+        @include margin(0vh , 4vh !important , 0vw, 0vw);
+    }
+}
+
+.brand_main_description{
+    
+    font-size: 1vmax;
+    color: $primaryColor;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.brand_main_button{
+    @include margin(10vh, 5vh,0vw,0vw);
+    .btn{
+        font-size: 1.5vmax;
+        width: 15vw;
+        height: 7vh;
+        border-radius: 15vw;
+        color: blanchedalmond;
+        background-color: $primaryColor;
+        &:hover{
+            background-color: whitesmoke;
+            color: $primaryColor;
+            cursor: pointer;
+        }
+    }
+}
+
+.card_animation{
+    width: 40%;
+}
+
+.dollar{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10vmax;
+    // bottom: 25vh;
+    // right: 35vh;
+    // position: absolute;
+}

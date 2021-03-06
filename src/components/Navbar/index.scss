@@ -1,0 +1,34 @@
+@import '../../globalStyles.scss';
+
+.navbar_container{
+    @include flex(row);
+    @include width_height(100vw, 15vh);
+    align-items: center;
+}
+
+.nav-row{
+    @include flex(row);
+    @include width_height(100%, 100%);
+    @include margin (0vh, 0vh, 7vw, 7vw);
+    align-items:center;
+    justify-content: space-between;
+    font-size: 1.5vmax;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-brand{
+    font-weight: bold;
+    color: $primaryColor;
+    &:hover{
+        color: #e0b56d;
+        cursor: pointer;
+    }
+}
+
+.nav-links{
+    color: $primaryColor;
+    &:hover{
+        color: #e0b56d;
+        cursor: pointer;
+    }
+}
