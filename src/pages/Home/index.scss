@@ -18,7 +18,7 @@
 }
 
 .brand_main_heading{
-    font-size: 4vmax;
+    font-size: 3vmax;
     color: $primaryColor;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     h5{
@@ -42,16 +42,23 @@
         border-radius: 15vw;
         color: blanchedalmond;
         background-color: $primaryColor;
+        border: none;
         &:hover{
             background-color: whitesmoke;
             color: $primaryColor;
             cursor: pointer;
+            border: none;
         }
     }
 }
 
 .card_animation{
     width: 40%;
+    height: 100%;
+}
+
+.card_img{
+    @include margin ( 12vh, 0vh , 0vh , 0vh)
 }
 
 .dollar{

@@ -3,9 +3,10 @@ import './index.scss';
 import credit_card from "../../assests/credit_card.png"
 import { motion } from "framer-motion"
 
+
 function Home() {
   return (
-   <div className="main_section">
+   <div className="main_section"> 
        
        <div className="section_description">
             <motion.div initial={{x:-100, opacity: 0.1}} animate={{ x: 0 , opacity: 1}} transition={{ ease: "easeOut", duration: 2.5 }}>
@@ -31,6 +32,7 @@ function Home() {
                     $
                 </div>
             </motion.div > */}
+            
 
        </div>
 
