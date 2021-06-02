@@ -11,8 +11,7 @@ const sidebar = {
     transition: {
       type: "spring",
       stiffness: 20,
-      restDelta: 2,
-      duration: 3
+      restDelta: 2
     }
   },
   closed: {
