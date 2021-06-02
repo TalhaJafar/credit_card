@@ -1,5 +1,5 @@
 # Demo Link
-You can view this demo at the following url
+You can view this demo at 
 https://talhajafar.github.io/credit_card/
 
 # Getting Started with Create React App
